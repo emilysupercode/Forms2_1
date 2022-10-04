@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+html {
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+h1 {
+    background-color: #5CD8A5;
+    color: white;
+    text-align: center;
+    width: 30vw;
+    font-size: 16px;
+    padding: 4%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vw;
+    background-color: #F6F5F3;
+    margin: 25% auto;
+}
+
+input,
+textarea,
+button {
+    margin: 2%;
+    padding: 1%;
+    width: 96%;
+    outline: none;
+}
+
+textarea {
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+button {
+    background-color: #5CD8A5;
+    color: white;
+    border: 1px solid #30c486;
+    width: 96%;
+}
+
+button:hover {
+    background-color: #30c486;
+}
